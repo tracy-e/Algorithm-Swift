@@ -48,7 +48,7 @@ class MatrixFind {
 extension MatrixFind: Testable {
     
     static func runTests() {
-        let solution = self.Solution()
+        let solution = Solution()
         assert(solution.find(matrix: [], target: 0) == false)
         assert(solution.find(matrix: [[1]], target: 0) == false)
         assert(solution.find(matrix: [[1]], target: 1))

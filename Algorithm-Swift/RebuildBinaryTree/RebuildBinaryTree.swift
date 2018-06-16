@@ -63,7 +63,7 @@ class RebuildBinaryTree {
 extension RebuildBinaryTree: Testable {
     
     static func runTests() {
-        let solution = self.Solution()
+        let solution = Solution()
         assert(solution.rebuildBinaryTree(pre: [], tin: []) == nil)
         assert(solution.rebuildBinaryTree(pre: [1, 2], tin: [1]) == nil)
         let tree = solution.rebuildBinaryTree(pre: [1, 2, 4, 7, 3, 5, 6, 8], tin: [4, 7, 2, 1, 5, 3, 8, 6])

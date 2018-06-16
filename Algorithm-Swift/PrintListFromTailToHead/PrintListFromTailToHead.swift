@@ -36,7 +36,7 @@ class PrintListFromTailToHead {
 extension PrintListFromTailToHead: Testable {
     
     static func runTests() {
-        let solution = self.Solution()
+        let solution = Solution()
         assert(solution.printListFromTailToHead(listNode: nil) == [])
         assert(solution.printListFromTailToHead(listNode: ListNode(1)) == [1])
         let node1 = ListNode(1)

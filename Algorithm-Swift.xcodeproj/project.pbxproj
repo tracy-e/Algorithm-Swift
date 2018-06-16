@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B130ED9A20D5079700AFE10F /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130ED9920D5079700AFE10F /* Fibonacci.swift */; };
+		B130ED9B20D5079700AFE10F /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130ED9920D5079700AFE10F /* Fibonacci.swift */; };
 		B19A157620D49BDA00792492 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8820D4941700530647 /* Testable.swift */; };
 		B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
 		B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
+		B19A157D20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */; };
+		B19A157E20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */; };
+		B19A158120D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */; };
+		B19A158220D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */; };
 		B1C99E6E20D489C600530647 /* Algorithm_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C99E6420D489C600530647 /* Algorithm_Swift.framework */; };
 		B1C99E7320D489C600530647 /* Algorithm_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E7220D489C600530647 /* Algorithm_SwiftTests.swift */; };
 		B1C99E7520D489C600530647 /* Algorithm_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C99E6720D489C600530647 /* Algorithm_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B130ED9920D5079700AFE10F /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		B19A157720D49D4300792492 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
+		B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueWithStacks.swift; sourceTree = "<group>"; };
+		B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		B1C99E6420D489C600530647 /* Algorithm_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algorithm_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C99E6720D489C600530647 /* Algorithm_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm_Swift.h; sourceTree = "<group>"; };
 		B1C99E6820D489C600530647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,12 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B130ED9820D5077300AFE10F /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				B130ED9920D5079700AFE10F /* Fibonacci.swift */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
 		B19A157A20D49D4C00792492 /* RebuildBinaryTree */ = {
 			isa = PBXGroup;
 			children = (
 				B19A157720D49D4300792492 /* RebuildBinaryTree.swift */,
 			);
 			path = RebuildBinaryTree;
+			sourceTree = "<group>";
+		};
+		B19A157B20D4F29100792492 /* ImplementQueueWithStacks */ = {
+			isa = PBXGroup;
+			children = (
+				B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */,
+			);
+			path = ImplementQueueWithStacks;
+			sourceTree = "<group>";
+		};
+		B19A157F20D4F6B700792492 /* FindMinimumInRotatedSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */,
+			);
+			path = FindMinimumInRotatedSortedArray;
 			sourceTree = "<group>";
 		};
 		B1C99E5A20D489C600530647 = {
@@ -94,6 +127,9 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B130ED9820D5077300AFE10F /* Fibonacci */,
+				B19A157F20D4F6B700792492 /* FindMinimumInRotatedSortedArray */,
+				B19A157B20D4F29100792492 /* ImplementQueueWithStacks */,
 				B19A157A20D49D4C00792492 /* RebuildBinaryTree */,
 				B1C99E8420D4922800530647 /* PrintListFromTailToHead */,
 				B1C99E7E20D489F500530647 /* MatrixFind */,
@@ -236,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C99E8620D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
+				B19A157D20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */,
 				B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
+				B130ED9A20D5079700AFE10F /* Fibonacci.swift in Sources */,
+				B19A158120D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				B1C99E8020D48A7200530647 /* MatrixFind.swift in Sources */,
 				B1C99E8920D4941700530647 /* Testable.swift in Sources */,
 			);
@@ -246,10 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B130ED9B20D5079700AFE10F /* Fibonacci.swift in Sources */,
 				B1C99E8720D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
 				B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
+				B19A158220D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				B19A157620D49BDA00792492 /* Testable.swift in Sources */,
 				B1C99E7320D489C600530647 /* Algorithm_SwiftTests.swift in Sources */,
+				B19A157E20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */,
 				B1C99E8120D48A7200530647 /* MatrixFind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

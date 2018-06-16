@@ -33,6 +33,18 @@ class Algorithm_SwiftTests: XCTestCase {
         RebuildBinaryTree.runTests()
     }
     
+    func testImplementQueueWithStacks() {
+        ImplementQueueWithStacks.runTests()
+    }
+    
+    func testFindMinimumInRotatedSortedArray() {
+        FindMinimumInRotatedSortedArray.runTests()
+    }
+    
+    func testFibonacci() {
+        Fibonacci.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
