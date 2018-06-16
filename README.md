@@ -1,7 +1,7 @@
 # Algorithm-Swift
 
 |  #  |   Title  |  Solution |
-|----|--- -----|----------- |
+|----|--------|----------- |
 | 1 |  二维数组中的查找  |   [Swift](Algorithm-Swift/MatrixFond/MatrixFind.swift)   |
 | 2 |  从未到头打印链表 |  [Swift](Algorithm-Swift/PrintListFromTailToHead.swift) |
 | 3 |  重建二叉树 | [Swift](Algorithm-Swift/RebuildBinaryTree/RebuildBinaryTree.swift) |
