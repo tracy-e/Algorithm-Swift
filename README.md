@@ -3,7 +3,7 @@
 |  #  |   Title  |  Solution |
 |----|--------|----------- |
 | 1 |  二维数组中的查找  |   [Swift](./Algorithm-Swift/MatrixFind/MatrixFind.swift)   |
-| 2 |  从未到头打印链表 |  [Swift](./Algorithm-Swift/PrintListFromTailToHead.swift) |
+| 2 |  从未到头打印链表 |  [Swift](./Algorithm-Swift/PrintListFromTailToHead/PrintListFromTailToHead.swift) |
 | 3 |  重建二叉树 | [Swift](./Algorithm-Swift/RebuildBinaryTree/RebuildBinaryTree.swift) |
 | 4 |  旋转数组中的最小数 | [Swift](./Algorithm-Swift/FindMinimumInRotatedArray/FindMinimumInRotatedArray.swift) |
 | 5 |  斐波那契数列 | [Swift](./Algorithm-Swift/Fibonacci/Fibonacci.swift) |
