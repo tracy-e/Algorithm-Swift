@@ -44,6 +44,6 @@ extension Fibonacci: Testable {
         assert(solution.fibonacci(n: 3) == 2)
         assert(solution.fibonacci(n: 4) == 3)
         assert(solution.fibonacci(n: 23) == 28657)
-        print(solution.fibonacci(n: 40) == 102334155)
+        assert(solution.fibonacci(n: 40) == 102334155)
     }
 }

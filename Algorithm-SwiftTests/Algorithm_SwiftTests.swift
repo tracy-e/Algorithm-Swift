@@ -45,6 +45,19 @@ class Algorithm_SwiftTests: XCTestCase {
         Fibonacci.runTests()
     }
     
+    func testJumpFloor() {
+        JumpFloor.runTests()
+        JumpFloorII.runTests()
+    }
+    
+    func testNumberOf1Bits() {
+        NumberOf1Bits.runTests()
+    }
+    
+    func testPowerOfBase() {
+        PowerOfBase.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
