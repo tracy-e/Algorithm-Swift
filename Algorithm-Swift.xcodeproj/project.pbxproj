@@ -47,6 +47,7 @@
 		B130ED9D20D50CBF00AFE10F /* JumpFloor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpFloor.swift; sourceTree = "<group>"; };
 		B130EDA120D5176B00AFE10F /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
 		B130EDA520D51AD200AFE10F /* PowerOfBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfBase.swift; sourceTree = "<group>"; };
+		B130EDA820D523D300AFE10F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B19A157720D49D4300792492 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueWithStacks.swift; sourceTree = "<group>"; };
 		B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		B1C99E5A20D489C600530647 = {
 			isa = PBXGroup;
 			children = (
+				B130EDA820D523D300AFE10F /* README.md */,
 				B1C99E6620D489C600530647 /* Algorithm-Swift */,
 				B1C99E7120D489C600530647 /* Algorithm-SwiftTests */,
 				B1C99E6520D489C600530647 /* Products */,
