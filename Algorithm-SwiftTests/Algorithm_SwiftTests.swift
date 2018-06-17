@@ -58,6 +58,15 @@ class Algorithm_SwiftTests: XCTestCase {
         PowerOfBase.runTests()
     }
     
+    func testReorderArray() {
+        ReorderArray.runTests()
+        ReorderArrayII.runTests()
+    }
+    
+    func testFindKthToTail() {
+        FindKthToTail.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

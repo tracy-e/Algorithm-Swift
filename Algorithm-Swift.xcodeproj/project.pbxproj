@@ -15,6 +15,10 @@
 		B130EDA320D5176B00AFE10F /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130EDA120D5176B00AFE10F /* NumberOf1Bits.swift */; };
 		B130EDA620D51AD200AFE10F /* PowerOfBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130EDA520D51AD200AFE10F /* PowerOfBase.swift */; };
 		B130EDA720D51AD200AFE10F /* PowerOfBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B130EDA520D51AD200AFE10F /* PowerOfBase.swift */; };
+		B198215620D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
+		B198215720D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
+		B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
+		B198215B20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
 		B19A157620D49BDA00792492 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8820D4941700530647 /* Testable.swift */; };
 		B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
 		B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
@@ -48,6 +52,8 @@
 		B130EDA120D5176B00AFE10F /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
 		B130EDA520D51AD200AFE10F /* PowerOfBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfBase.swift; sourceTree = "<group>"; };
 		B130EDA820D523D300AFE10F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B198215520D54B6700888219 /* ReorderArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderArray.swift; sourceTree = "<group>"; };
+		B198215920D6A02F00888219 /* FindKthToTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthToTail.swift; sourceTree = "<group>"; };
 		B19A157720D49D4300792492 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueWithStacks.swift; sourceTree = "<group>"; };
 		B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
@@ -113,6 +119,22 @@
 			path = PowerOfBase;
 			sourceTree = "<group>";
 		};
+		B198215420D54AF300888219 /* ReorderArray */ = {
+			isa = PBXGroup;
+			children = (
+				B198215520D54B6700888219 /* ReorderArray.swift */,
+			);
+			path = ReorderArray;
+			sourceTree = "<group>";
+		};
+		B198215820D6A02300888219 /* FindKthToTail */ = {
+			isa = PBXGroup;
+			children = (
+				B198215920D6A02F00888219 /* FindKthToTail.swift */,
+			);
+			path = FindKthToTail;
+			sourceTree = "<group>";
+		};
 		B19A157A20D49D4C00792492 /* RebuildBinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +184,8 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B198215820D6A02300888219 /* FindKthToTail */,
+				B198215420D54AF300888219 /* ReorderArray */,
 				B130EDA420D51A3100AFE10F /* PowerOfBase */,
 				B130EDA020D5172A00AFE10F /* NumberOf1Bits */,
 				B130ED9C20D50BF300AFE10F /* JumpFloor */,
@@ -309,12 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B198215620D54B6700888219 /* ReorderArray.swift in Sources */,
 				B130ED9E20D50CBF00AFE10F /* JumpFloor.swift in Sources */,
 				B1C99E8620D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
 				B19A157D20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */,
 				B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
 				B130ED9A20D5079700AFE10F /* Fibonacci.swift in Sources */,
 				B19A158120D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
+				B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */,
 				B1C99E8020D48A7200530647 /* MatrixFind.swift in Sources */,
 				B1C99E8920D4941700530647 /* Testable.swift in Sources */,
 				B130EDA220D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
@@ -327,8 +353,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B130ED9B20D5079700AFE10F /* Fibonacci.swift in Sources */,
+				B198215B20D6A02F00888219 /* FindKthToTail.swift in Sources */,
 				B130EDA320D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
 				B1C99E8720D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
+				B198215720D54B6700888219 /* ReorderArray.swift in Sources */,
 				B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
 				B19A158220D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				B19A157620D49BDA00792492 /* Testable.swift in Sources */,

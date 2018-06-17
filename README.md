@@ -10,5 +10,6 @@
 | 6 |  跳台阶 | [Swift](./Algorithm-Swift/JumpFloor/JumpFloor.swift) |
 | 7 |  二进制中1的个数 | [Swift](./Algorithm-Swift/NumberOf1Bits/NumberOf1Bits.swift) |
 | 8 |  数值的整数次方 | [Swift](./Algorithm-Swift/PowerOfBase/PowerOfBase.swift) |
-
+| 9 |  调整数组顺序使得奇数位于偶数前面 |  [Swift](./Algorithm-Swift/ReorderArray/ReorderArray.swift) |
+| 10 | 链表中的第k个节点 | [Swift](./Algorithm-Swift/FindKthToTail/FindKthToTail.swift) | 
 
