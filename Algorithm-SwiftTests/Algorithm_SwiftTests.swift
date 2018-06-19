@@ -79,6 +79,10 @@ class Algorithm_SwiftTests: XCTestCase {
         SubtreeOfAnotherTree.runTests()
     }
     
+    func testInvertBinaryTree() {
+        InvertBinaryTree.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

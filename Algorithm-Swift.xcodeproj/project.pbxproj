@@ -40,6 +40,8 @@
 		B1F232C720D894FE006450CB /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */; };
 		B1F232CA20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */; };
 		B1F232CB20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */; };
+		B1F232CE20D8EB5E006450CB /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232CD20D8EB5E006450CB /* InvertBinaryTree.swift */; };
+		B1F232CF20D8EB5E006450CB /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232CD20D8EB5E006450CB /* InvertBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,7 @@
 		B1C99E8820D4941700530647 /* Testable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testable.swift; sourceTree = "<group>"; };
 		B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtreeOfAnotherTree.swift; sourceTree = "<group>"; };
+		B1F232CD20D8EB5E006450CB /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,7 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B1F232CC20D8EB42006450CB /* InvertBinaryTree */,
 				B1F232C820D8E1CD006450CB /* SubtreeOfAnotherTree */,
 				B1F232C420D894EC006450CB /* MergeTwoSortedLists */,
 				B198215C20D7EA2400888219 /* ReverseList */,
@@ -258,6 +262,14 @@
 				B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */,
 			);
 			path = SubtreeOfAnotherTree;
+			sourceTree = "<group>";
+		};
+		B1F232CC20D8EB42006450CB /* InvertBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				B1F232CD20D8EB5E006450CB /* InvertBinaryTree.swift */,
+			);
+			path = InvertBinaryTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +395,7 @@
 				B130EDA220D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
 				B130EDA620D51AD200AFE10F /* PowerOfBase.swift in Sources */,
 				B1F232C620D894FE006450CB /* MergeTwoSortedLists.swift in Sources */,
+				B1F232CE20D8EB5E006450CB /* InvertBinaryTree.swift in Sources */,
 				B198215E20D7EA3C00888219 /* ReverseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +416,7 @@
 				B19A158220D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				B19A157620D49BDA00792492 /* Testable.swift in Sources */,
 				B1C99E7320D489C600530647 /* Algorithm_SwiftTests.swift in Sources */,
+				B1F232CF20D8EB5E006450CB /* InvertBinaryTree.swift in Sources */,
 				B19A157E20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */,
 				B1C99E8120D48A7200530647 /* MatrixFind.swift in Sources */,
 				B130ED9F20D50CBF00AFE10F /* JumpFloor.swift in Sources */,
