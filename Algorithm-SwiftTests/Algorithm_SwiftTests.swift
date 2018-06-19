@@ -83,6 +83,10 @@ class Algorithm_SwiftTests: XCTestCase {
         InvertBinaryTree.runTests()
     }
     
+    func testSpiralMatrix() {
+        SpiralMatrix.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
