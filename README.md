@@ -19,3 +19,4 @@
 | 15 | 顺时针打印矩阵 | [Swift](./Algorithm-Swift/SpiralMatrix/SpiralMatrix.swift) |
 | 16 | 包括min函数的栈（最小栈） | [Swift](./Algorithm-Swift/MinStack/MinStack.swift) |
 | 17 | 栈的压入弹出序列 | [Swift](./Algorithm-Swift/StackPushPopMatch/StackPushPopMatch.swift) |
+| 18 | 二叉树的遍历 | [Swift](./Algorithm-Swift/BinaryTreeTraversal/BinaryTreeTraversal.swift) |

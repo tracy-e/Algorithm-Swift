@@ -19,6 +19,8 @@
 		B147020F20D8FDFD002BA990 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147020D20D8FDFD002BA990 /* MinStack.swift */; };
 		B147021220D9185E002BA990 /* StackPushPopMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147021120D9185E002BA990 /* StackPushPopMatch.swift */; };
 		B147021320D9185E002BA990 /* StackPushPopMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147021120D9185E002BA990 /* StackPushPopMatch.swift */; };
+		B147021620D93009002BA990 /* BinaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147021520D93008002BA990 /* BinaryTreeTraversal.swift */; };
+		B147021720D93009002BA990 /* BinaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147021520D93008002BA990 /* BinaryTreeTraversal.swift */; };
 		B198215620D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
 		B198215720D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
 		B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
@@ -68,6 +70,7 @@
 		B130EDA820D523D300AFE10F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B147020D20D8FDFD002BA990 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		B147021120D9185E002BA990 /* StackPushPopMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPushPopMatch.swift; sourceTree = "<group>"; };
+		B147021520D93008002BA990 /* BinaryTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTraversal.swift; sourceTree = "<group>"; };
 		B198215520D54B6700888219 /* ReorderArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderArray.swift; sourceTree = "<group>"; };
 		B198215920D6A02F00888219 /* FindKthToTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthToTail.swift; sourceTree = "<group>"; };
 		B198215D20D7EA3C00888219 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
@@ -156,6 +159,14 @@
 			path = StackPushPopMatch;
 			sourceTree = "<group>";
 		};
+		B147021420D92FF8002BA990 /* BinaryTreeTraversal */ = {
+			isa = PBXGroup;
+			children = (
+				B147021520D93008002BA990 /* BinaryTreeTraversal.swift */,
+			);
+			path = BinaryTreeTraversal;
+			sourceTree = "<group>";
+		};
 		B198215420D54AF300888219 /* ReorderArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +240,7 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B147021420D92FF8002BA990 /* BinaryTreeTraversal */,
 				B147021020D91775002BA990 /* StackPushPopMatch */,
 				B147020C20D8FDE8002BA990 /* MinStack */,
 				B1F232D020D8EEFC006450CB /* SpiralMatrix */,
@@ -432,6 +444,7 @@
 				B130EDA620D51AD200AFE10F /* PowerOfBase.swift in Sources */,
 				B147021220D9185E002BA990 /* StackPushPopMatch.swift in Sources */,
 				B1F232C620D894FE006450CB /* MergeTwoSortedLists.swift in Sources */,
+				B147021620D93009002BA990 /* BinaryTreeTraversal.swift in Sources */,
 				B1F232D220D8EF08006450CB /* SpiralMatrix.swift in Sources */,
 				B1F232CE20D8EB5E006450CB /* InvertBinaryTree.swift in Sources */,
 				B198215E20D7EA3C00888219 /* ReverseList.swift in Sources */,
@@ -452,6 +465,7 @@
 				B1F232CB20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */,
 				B1C99E8720D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
 				B1F232D320D8EF08006450CB /* SpiralMatrix.swift in Sources */,
+				B147021720D93009002BA990 /* BinaryTreeTraversal.swift in Sources */,
 				B198215720D54B6700888219 /* ReorderArray.swift in Sources */,
 				B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
 				B19A158220D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,

@@ -95,6 +95,10 @@ class Algorithm_SwiftTests: XCTestCase {
         StackPushPopMatch.runTests()
     }
     
+    func testBinaryTreeTraversal() {
+        BinaryTreeTraversal.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
