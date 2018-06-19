@@ -87,6 +87,10 @@ class Algorithm_SwiftTests: XCTestCase {
         SpiralMatrix.runTests()
     }
     
+    func testMinStack() {
+        MinStack.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
