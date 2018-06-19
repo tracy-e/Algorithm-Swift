@@ -19,6 +19,8 @@
 		B198215720D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
 		B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
 		B198215B20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
+		B198215E20D7EA3C00888219 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215D20D7EA3C00888219 /* ReverseList.swift */; };
+		B198215F20D7EA3C00888219 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215D20D7EA3C00888219 /* ReverseList.swift */; };
 		B19A157620D49BDA00792492 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8820D4941700530647 /* Testable.swift */; };
 		B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
 		B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19A157720D49D4300792492 /* RebuildBinaryTree.swift */; };
@@ -34,6 +36,10 @@
 		B1C99E8620D4928400530647 /* PrintListFromTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8520D4928400530647 /* PrintListFromTailToHead.swift */; };
 		B1C99E8720D4928400530647 /* PrintListFromTailToHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8520D4928400530647 /* PrintListFromTailToHead.swift */; };
 		B1C99E8920D4941700530647 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C99E8820D4941700530647 /* Testable.swift */; };
+		B1F232C620D894FE006450CB /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */; };
+		B1F232C720D894FE006450CB /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */; };
+		B1F232CA20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */; };
+		B1F232CB20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,7 @@
 		B130EDA820D523D300AFE10F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B198215520D54B6700888219 /* ReorderArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderArray.swift; sourceTree = "<group>"; };
 		B198215920D6A02F00888219 /* FindKthToTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthToTail.swift; sourceTree = "<group>"; };
+		B198215D20D7EA3C00888219 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 		B19A157720D49D4300792492 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		B19A157C20D4F2FD00792492 /* ImplementQueueWithStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueWithStacks.swift; sourceTree = "<group>"; };
 		B19A158020D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
@@ -66,6 +73,8 @@
 		B1C99E7F20D48A7200530647 /* MatrixFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixFind.swift; sourceTree = "<group>"; };
 		B1C99E8520D4928400530647 /* PrintListFromTailToHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintListFromTailToHead.swift; sourceTree = "<group>"; };
 		B1C99E8820D4941700530647 /* Testable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testable.swift; sourceTree = "<group>"; };
+		B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtreeOfAnotherTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +144,14 @@
 			path = FindKthToTail;
 			sourceTree = "<group>";
 		};
+		B198215C20D7EA2400888219 /* ReverseList */ = {
+			isa = PBXGroup;
+			children = (
+				B198215D20D7EA3C00888219 /* ReverseList.swift */,
+			);
+			path = ReverseList;
+			sourceTree = "<group>";
+		};
 		B19A157A20D49D4C00792492 /* RebuildBinaryTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +201,9 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B1F232C820D8E1CD006450CB /* SubtreeOfAnotherTree */,
+				B1F232C420D894EC006450CB /* MergeTwoSortedLists */,
+				B198215C20D7EA2400888219 /* ReverseList */,
 				B198215820D6A02300888219 /* FindKthToTail */,
 				B198215420D54AF300888219 /* ReorderArray */,
 				B130EDA420D51A3100AFE10F /* PowerOfBase */,
@@ -222,6 +242,22 @@
 				B1C99E8520D4928400530647 /* PrintListFromTailToHead.swift */,
 			);
 			path = PrintListFromTailToHead;
+			sourceTree = "<group>";
+		};
+		B1F232C420D894EC006450CB /* MergeTwoSortedLists */ = {
+			isa = PBXGroup;
+			children = (
+				B1F232C520D894FE006450CB /* MergeTwoSortedLists.swift */,
+			);
+			path = MergeTwoSortedLists;
+			sourceTree = "<group>";
+		};
+		B1F232C820D8E1CD006450CB /* SubtreeOfAnotherTree */ = {
+			isa = PBXGroup;
+			children = (
+				B1F232C920D8E1DA006450CB /* SubtreeOfAnotherTree.swift */,
+			);
+			path = SubtreeOfAnotherTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +372,7 @@
 				B198215620D54B6700888219 /* ReorderArray.swift in Sources */,
 				B130ED9E20D50CBF00AFE10F /* JumpFloor.swift in Sources */,
 				B1C99E8620D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
+				B1F232CA20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */,
 				B19A157D20D4F2FD00792492 /* ImplementQueueWithStacks.swift in Sources */,
 				B19A157820D49D4300792492 /* RebuildBinaryTree.swift in Sources */,
 				B130ED9A20D5079700AFE10F /* Fibonacci.swift in Sources */,
@@ -345,6 +382,8 @@
 				B1C99E8920D4941700530647 /* Testable.swift in Sources */,
 				B130EDA220D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
 				B130EDA620D51AD200AFE10F /* PowerOfBase.swift in Sources */,
+				B1F232C620D894FE006450CB /* MergeTwoSortedLists.swift in Sources */,
+				B198215E20D7EA3C00888219 /* ReverseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,9 +391,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B198215F20D7EA3C00888219 /* ReverseList.swift in Sources */,
 				B130ED9B20D5079700AFE10F /* Fibonacci.swift in Sources */,
 				B198215B20D6A02F00888219 /* FindKthToTail.swift in Sources */,
 				B130EDA320D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
+				B1F232C720D894FE006450CB /* MergeTwoSortedLists.swift in Sources */,
+				B1F232CB20D8E1DA006450CB /* SubtreeOfAnotherTree.swift in Sources */,
 				B1C99E8720D4928400530647 /* PrintListFromTailToHead.swift in Sources */,
 				B198215720D54B6700888219 /* ReorderArray.swift in Sources */,
 				B19A157920D49D4300792492 /* RebuildBinaryTree.swift in Sources */,

@@ -67,6 +67,18 @@ class Algorithm_SwiftTests: XCTestCase {
         FindKthToTail.runTests()
     }
     
+    func testReverseList() {
+        ReverseList.runTests()
+    }
+    
+    func testMergeTwoSortedLists() {
+        MergeTwoSortedLists.runTests()
+    }
+    
+    func testSubtreeOfAnotherTree() {
+        SubtreeOfAnotherTree.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
