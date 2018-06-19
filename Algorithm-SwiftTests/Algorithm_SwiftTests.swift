@@ -91,6 +91,10 @@ class Algorithm_SwiftTests: XCTestCase {
         MinStack.runTests()
     }
     
+    func testStackPushPopMatch() {
+        StackPushPopMatch.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
