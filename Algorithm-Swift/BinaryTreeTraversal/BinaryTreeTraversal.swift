@@ -71,16 +71,44 @@ class BinaryTreeTraversal {
         
         // 二叉树的中序遍历
         func inorderTraversal(_ root: TreeNode?) -> [Int] {
-            if let root = root {
-                
+            var node: TreeNode? = root
+            var stack: [TreeNode] = []
+            var result: [Int] = []
+            while node != nil || stack.count > 0 {
+                if node != nil {
+                    stack.append(node!)
+                    node = node!.left
+                } else if stack.count > 0 {
+                    node = stack.popLast()
+                    result.append(node!.val)
+                    node = node!.right
+                }
             }
-            return []
+            return result
         }
         
         // 二叉树的后序遍历
         func postorderTraversal(_ root: TreeNode?) -> [Int] {
-            
-            return []
+            var node: TreeNode? = root
+            var stack: [TreeNode] = []
+            var lastVisitNode: TreeNode? = nil
+            var result: [Int] = []
+            while node != nil || stack.count > 0 {
+                if node != nil {
+                    stack.append(node!)
+                    node = node!.left
+                } else {
+                    let n = stack.last
+                    if n?.right != nil && lastVisitNode?.val != n?.right?.val {
+                        node = n?.right
+                    } else {
+                        let _ = stack.popLast()
+                        result.append(n!.val)
+                        lastVisitNode = n
+                    }
+                }
+            }
+            return result
         }
     }
     
@@ -122,9 +150,27 @@ extension BinaryTreeTraversal: Testable {
         assert(solution.preorderTraversal(tree2()) == [8, 6, 5, 7, 10, 9, 11])
     }
     
+    static func testInorderTraversal() {
+        let solution = Solution()
+        assert(solution.inorderTraversal(nil) == [])
+        assert(solution.inorderTraversal(TreeNode(1)) == [1])
+        assert(solution.inorderTraversal(tree1()) == [2, 3, 1])
+        assert(solution.inorderTraversal(tree2()) == [5, 6, 7, 8, 9, 10, 11])
+    }
+    
+    static func testPostorderTraversal() {
+        let solution = Solution()
+        assert(solution.postorderTraversal(nil) == [])
+        assert(solution.postorderTraversal(TreeNode(1)) == [1])
+        assert(solution.postorderTraversal(tree1()) == [3, 2, 1])
+        assert(solution.postorderTraversal(tree2()) == [5, 7, 6, 9, 11, 10, 8])
+    }
+    
     static func runTests() {
         testLevelTraversal()
-        testLevelTraversal()
+        testPreorderTraversal()
+        testInorderTraversal()
+        testPostorderTraversal()
     }
     
 }
