@@ -99,6 +99,10 @@ class Algorithm_SwiftTests: XCTestCase {
         BinaryTreeTraversal.runTests()
     }
     
+    func testValidateSequenceOfBST() {
+        ValidateSequenceOfBST.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
