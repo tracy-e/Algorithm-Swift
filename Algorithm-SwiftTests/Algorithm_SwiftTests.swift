@@ -103,6 +103,10 @@ class Algorithm_SwiftTests: XCTestCase {
         ValidateSequenceOfBST.runTests()
     }
     
+    func testBinaryTreePathSumEqualsX() {
+        BinaryTreePathSumEqualsX.runTests()
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

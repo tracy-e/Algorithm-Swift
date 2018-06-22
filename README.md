@@ -21,3 +21,4 @@
 | 17 | 栈的压入弹出序列 | [Swift](./Algorithm-Swift/StackPushPopMatch/StackPushPopMatch.swift) |
 | 18 | 二叉树的遍历（层序、前序、中序、后序） | [Swift](./Algorithm-Swift/BinaryTreeTraversal/BinaryTreeTraversal.swift) |
 | 19 | 二叉搜索树的后序遍历序列 | [Swift](./Algorithm-Swift/ValidateSequenceOfBST/ValidateSequenceOfBST.swift) |
+| 20 | 二叉树中和为某一值的路径 | [Swift](./Algorithm-Swift/BinaryTreePathSumEqualsX/BinaryTreePathSumEqualsX.swift) |

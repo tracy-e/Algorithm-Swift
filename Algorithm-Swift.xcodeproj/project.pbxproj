@@ -23,6 +23,8 @@
 		B147021720D93009002BA990 /* BinaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147021520D93008002BA990 /* BinaryTreeTraversal.swift */; };
 		B16B762620DBD49100B8CF31 /* ValidateSequenceOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B762520DBD49100B8CF31 /* ValidateSequenceOfBST.swift */; };
 		B16B762720DBD49100B8CF31 /* ValidateSequenceOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B762520DBD49100B8CF31 /* ValidateSequenceOfBST.swift */; };
+		B16B762A20DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B762920DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift */; };
+		B16B762B20DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B762920DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift */; };
 		B198215620D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
 		B198215720D54B6700888219 /* ReorderArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215520D54B6700888219 /* ReorderArray.swift */; };
 		B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198215920D6A02F00888219 /* FindKthToTail.swift */; };
@@ -74,6 +76,7 @@
 		B147021120D9185E002BA990 /* StackPushPopMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPushPopMatch.swift; sourceTree = "<group>"; };
 		B147021520D93008002BA990 /* BinaryTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTraversal.swift; sourceTree = "<group>"; };
 		B16B762520DBD49100B8CF31 /* ValidateSequenceOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateSequenceOfBST.swift; sourceTree = "<group>"; };
+		B16B762920DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePathSumEqualsX.swift; sourceTree = "<group>"; };
 		B198215520D54B6700888219 /* ReorderArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderArray.swift; sourceTree = "<group>"; };
 		B198215920D6A02F00888219 /* FindKthToTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKthToTail.swift; sourceTree = "<group>"; };
 		B198215D20D7EA3C00888219 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
@@ -178,6 +181,14 @@
 			path = ValidateSequenceOfBST;
 			sourceTree = "<group>";
 		};
+		B16B762820DBE74C00B8CF31 /* BinaryTreePathSumEqualsX */ = {
+			isa = PBXGroup;
+			children = (
+				B16B762920DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift */,
+			);
+			path = BinaryTreePathSumEqualsX;
+			sourceTree = "<group>";
+		};
 		B198215420D54AF300888219 /* ReorderArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +262,7 @@
 				B1C99E6720D489C600530647 /* Algorithm_Swift.h */,
 				B1C99E6820D489C600530647 /* Info.plist */,
 				B1C99E8820D4941700530647 /* Testable.swift */,
+				B16B762820DBE74C00B8CF31 /* BinaryTreePathSumEqualsX */,
 				B16B762420DBD47F00B8CF31 /* ValidateSequenceOfBST */,
 				B147021420D92FF8002BA990 /* BinaryTreeTraversal */,
 				B147021020D91775002BA990 /* StackPushPopMatch */,
@@ -450,6 +462,7 @@
 				B130ED9A20D5079700AFE10F /* Fibonacci.swift in Sources */,
 				B19A158120D4F72E00792492 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				B198215A20D6A02F00888219 /* FindKthToTail.swift in Sources */,
+				B16B762A20DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift in Sources */,
 				B1C99E8020D48A7200530647 /* MatrixFind.swift in Sources */,
 				B1C99E8920D4941700530647 /* Testable.swift in Sources */,
 				B130EDA220D5176B00AFE10F /* NumberOf1Bits.swift in Sources */,
@@ -470,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B147021320D9185E002BA990 /* StackPushPopMatch.swift in Sources */,
+				B16B762B20DBE76B00B8CF31 /* BinaryTreePathSumEqualsX.swift in Sources */,
 				B198215F20D7EA3C00888219 /* ReverseList.swift in Sources */,
 				B130ED9B20D5079700AFE10F /* Fibonacci.swift in Sources */,
 				B198215B20D6A02F00888219 /* FindKthToTail.swift in Sources */,
